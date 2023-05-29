@@ -52,10 +52,6 @@ echo circle1(10);
 function circle1($r,$p=3.1415){
     return $r*$r*$p;
 }
-
-
-
-
     ?>
 </body>
 
