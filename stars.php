@@ -4,51 +4,11 @@
     }
 </style>
 <?php
-//迴圈印正三角形星星
-for($i=0;$i<5;$i++){
-    for($j=0;$j<(4-$i);$j++){
-        echo "&nbsp;";
-    }
-
-    for($k=0;$k<($i*2+1);$k++){
-        echo "*";
-    }
-    echo "<br>";
-}
-//迴圈加入function印正三角形星星
-echo star(10);
-function star($line){
-    for($i=0;$i<$line;$i++){
-        for($j=0;$j<($line-1-$i);$j++){
-            echo "&nbsp;";
-        }
-    
-        for($k=0;$k<($i*2+1);$k++){
-            echo "*";
-        }
-        echo "<br>";
-    }
-
-}
-echo "<br>";
-//迴圈印矩形
-for($i=0;$i<=5;$i++){
-    for($j=0;$j<=5;$j++){
-        echo "*";
-    }
-    echo "<br>";
-}
-
-//function印矩形
-echo rectangle1(10);
-function rectangle1($line){
-    for($i=0;$i<=$line;$i++){
-        for($j=0;$j<=$line;$j++){
-            echo "*";
-        }
-        echo "<br>";
-    }
-}
+/* equilateral_triangle(5);
+right_triangle(5);
+diamond(9);
+rectangle(9);
+ */
 
 stars("正三角形",11);
 stars("矩形",6);
@@ -142,3 +102,5 @@ for($i=0;$i<$n;$i++){
     echo "<br>";
 }
 }
+?>
+
